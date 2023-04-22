@@ -22,12 +22,12 @@ app.get('/', (req, res) => {
       </head>
       <body>
         <section>
-          <h2>What is next topic?</h2>
+          <h2>What is this courese known as?</h2>
           <h3>${userGoal}</h3>
         </section>
         <form action="/store-goal" method="POST">
           <div class="form-control">
-            <label>Course Goal</label>
+            <label>give course name</label>
             <input type="text" name="goal">
           </div>
           <button>Set Course Goal</button>
